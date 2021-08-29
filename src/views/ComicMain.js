@@ -2,12 +2,15 @@ import React, {useState, useEffect} from 'react'
 import axios from 'axios'
 import { FaStar } from 'react-icons/fa'
 import { FaRegStar } from 'react-icons/fa'
+import Rating from '@material-ui/lab/Rating'
 import './comic.css'
 
 
 export const ComicMain = () => {
   const [comic, setComic] = useState([])
+  const [value, setValue] = useState(2)
 
+  console.log('value', value)
   useEffect(() => {
     const getComic = async() => {
       try {
@@ -30,12 +33,19 @@ export const ComicMain = () => {
             <h1>Comic Title</h1>
               <div className='card'>
               </div>
+              <div>
+                <h2>Rate this comic strip here!</h2>
+              </div>
               <div className='starsContainer'>
-                <FaStar className='star'/>
-                <FaStar className='star'/>
-                <FaStar className='star'/>
-                <FaStar className='star'/>
-                <FaRegStar className='star'/>
+              <Rating
+                name='rating'
+                value={value}
+                size="large"
+                icon={<FaStar className='star' />}
+                onChange={(event, newValue) => {
+                  setValue(newValue)
+                }}
+              />
               </div>
         </div>
     )

@@ -12,6 +12,14 @@ h1 {
     margin: 5%;
 }
 
+h2 {
+    color: 'black';
+    font-family: 'Raleway', sans-serif;
+    margin: 3%;
+    font-size: 2vh;
+    letter-spacing: 1vh;
+}
+
 .card {
     height: 60vh;
     width: 60vw;
@@ -23,11 +31,10 @@ h1 {
     .star {
       animation: App-logo-spin infinite 80s linear;
     }
-  }
+}
 
 .starsContainer {
     font-size: 50px;
     margin: 2%;
-    color: #e73c17;
 }
 
