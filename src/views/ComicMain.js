@@ -13,8 +13,8 @@ export const ComicMain = () => {
       try {
         const { data } = await axios({
           method: 'GET',
-          baseURL: 'https://xkcd-api.ridvanaltun.vercel.app',
-          url: '/api/comics/latest',
+          baseURL: 'https://xkcd.com',
+          url: '/614/info.0.json',
         })
         setComic(comic)
         console.log('comic', comic)
