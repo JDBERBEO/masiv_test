@@ -15,7 +15,7 @@ v16.3.0
 1.22.10
 
 # VARIABLES DE ENTORNO
--REACT_APP_BASE_URL
+REACT_APP_BASE_URL
 
 # USO
 
@@ -29,7 +29,7 @@ $ yarn ...
 ```
 3. Configurar variable de entorno:
 ```
--REACT_APP_BASE_URL = http://localhost:8000
+REACT_APP_BASE_URL = http://localhost:8000
 ```
 4. Iniciar aplicación:
 ```
@@ -44,7 +44,7 @@ $ yarn ...
 ```
 8. En el servidor local se debe crear las variables de entorno de la siguiente forma:
 ```
--port = 8000
+port = 8000
 ```
 10. Se debe inicializar el servidor local con el comando:
 ```
