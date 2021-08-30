@@ -1,9 +1,11 @@
-import './App.css';
+import './App.scss';
+import { ComicMain } from './views/ComicMain';
 
 function App() {
   return (
-      <>
-      </>
+    <>
+    <ComicMain />
+    </>
   )
 }
 
