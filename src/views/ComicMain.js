@@ -5,6 +5,7 @@ import Rating from '@material-ui/lab/Rating'
 import './comic.scss'
 import { Loading } from '../components/loading/Loading'
 import { Error } from '../components/error/Error'
+import { ComicView } from './ComicView'
 
 
 export const ComicMain = () => {
@@ -12,7 +13,7 @@ export const ComicMain = () => {
   const [value, setValue] = useState(1)
   const [state, setstate] = useState({
     loading: false,
-    error: '',
+    error: false,
   })
 
   useEffect(() => {
@@ -41,18 +42,7 @@ export const ComicMain = () => {
 
     return (
       <div className='container'>
-        
-        {!!comic && 
-        <>
-        <h1>{comic.title}</h1>
-        <div className='card'>
-          <img src={comic.img} alt='random comic'/>
-        </div>
-        </>
-        }
-        <div>
-          <h2>Rate this comic strip here!</h2>
-        </div>
+        <ComicView comic={comic}/>
         <div className='starsContainer'>
           <Rating
             name='rating'
