@@ -12,7 +12,7 @@ Se construye con Yarn y Reactjs
 # VARIABLES DE ENTORNO
 -REACT_APP_BASE_URL
 
-#USO
+# USO
 
 1. Clonar el Repositorio: 
 ```
