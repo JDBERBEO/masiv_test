@@ -38,15 +38,15 @@ $ yarn start
 5. Se debe clonar el repositorio donde se encuentra el servidor local que consume la API de comics:
 https://github.com/JDBERBEO/API_COMIC
 
-7. El servidor local se debe instalar con:
+6. El servidor local se debe instalar con:
 ```
 $ yarn ...
 ```
-8. En el servidor local se debe crear las variables de entorno en archivo .env en la raiz de la siguiente forma:
+7. En el servidor local se debe crear las variables de entorno en archivo .env en la raiz de la siguiente forma:
 ```
 port = 8000
 ```
-10. Se debe inicializar el servidor local con el comando:
+8. Se debe inicializar el servidor local con el comando:
 ```
 $ yarn dev
 ```
