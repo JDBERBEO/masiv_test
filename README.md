@@ -9,6 +9,11 @@ Se desarrolla con base en un prueba técnica.
 
 Se construye con Yarn y Reactjs
 
+# NODE VERSION
+v16.3.0
+# YARN VERSIÓN
+1.22.10
+
 # VARIABLES DE ENTORNO
 -REACT_APP_BASE_URL
 
