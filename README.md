@@ -37,7 +37,11 @@ https://github.com/JDBERBEO/API_COMIC
 ```
 $ yarn ...
 ```
-9. Se debe inicializar el servidor local con el comando:
+8. En el servidor local se debe crear las variables de entorno de la siguiente forma:
+```
+-port = 8000
+```
+10. Se debe inicializar el servidor local con el comando:
 ```
 $ yarn dev
 ```
