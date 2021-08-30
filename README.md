@@ -30,3 +30,14 @@ $ yarn ...
 ```
 $ yarn start
 ```
+5. Se debe clonar el repositorio donde se encuentra el servidor local que consume la API de comics:
+https://github.com/JDBERBEO/API_COMIC
+
+7. El servidor local se debe instalar con:
+```
+$ yarn ...
+```
+9. Se debe inicializar el servidor local con el comando:
+```
+$ yarn dev
+```
