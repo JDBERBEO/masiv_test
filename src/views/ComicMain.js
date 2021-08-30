@@ -12,7 +12,7 @@ export const ComicMain = () => {
   const [value, setValue] = useState(1)
   const [state, setstate] = useState({
     loading: false,
-    error: '',
+    error: false,
   })
 
   useEffect(() => {
