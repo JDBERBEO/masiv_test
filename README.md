@@ -27,7 +27,7 @@ $ git clone ...
 ```
 $ yarn ...
 ```
-3. Configurar variable de entorno:
+3. Configurar variable de entorno en archivo .env en la raiz:
 ```
 REACT_APP_BASE_URL = http://localhost:8000
 ```
@@ -42,7 +42,7 @@ https://github.com/JDBERBEO/API_COMIC
 ```
 $ yarn ...
 ```
-8. En el servidor local se debe crear las variables de entorno de la siguiente forma:
+8. En el servidor local se debe crear las variables de entorno en archivo .env en la raiz de la siguiente forma:
 ```
 port = 8000
 ```
