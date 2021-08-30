@@ -18,8 +18,11 @@ Se construye con Yarn y Reactjs
 ```
 $ git clone ...
 ```
-2. Instalar mediante comando 'yarn' las dependencias incluidas
+2. Instalar las dependencias incluidas
 ```
 $ yarn ...
 ```
-
+3. Configurar variable de entorno
+```
+-REACT_APP_BASE_URL = http://localhost:8000
+```
